@@ -221,3 +221,17 @@ footer{
     background: #131921;
     padding: 20px 60px;
 }
+button{
+    width: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 50px;
+    background: #ffffff;
+    color: #000000;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+button:hover {
+    background: #888181;
+}
