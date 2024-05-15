@@ -1,41 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="signup.css">
-    <title>Amazon Sign in Page</title>
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-size: large;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+    
+            background-color: #286; 
+            /* background-image: -moz-element("C:\Users\addyh\OneDrive\Desktop\book.jpg"); */
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(218, 132, 20);
+        }
+        </style>
 </head>
+
 <body>
+    <header>
+        <h1>Contact Us </h1>
+        <h3> You will hear from us at the earliest!</h3>
+        <img src="summary-of-the-48-laws-of-power-by-robert-greene-8.jpg" height="300px">
+    </header>
+
     <section>
-        <div class="logo">
-            <img src="images (3).png" alt="">
-            <span>.in</span>
-        </div>
-        <div class="card">
-            <h1>Sign in</h1>
-            <div class="form">
-                <label for="">Email or Mobile number</label>
-                <input type="text">
-                <button>Continue</button>
-            </div>
-            <p>By continuing, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a></p>
-            <a href="contactus.html" class="icon">Need Help?</a>
-        </div>
-        <div class="breck">
-            <p>New to Amazon?</p>
-        </div>
-            <div class="btn">
-                <button>Create your Amazon account</button>
-            </div>
-        <footer>
-            <div class="links">
-                <a href="#">Conditions of Use</a>
-                <a href="#">Privacy Notice</a>
-                <a href="contactus.html">Help</a>
-            </div>
-            <p>1996-2024,Amazon.com,Inc. or its affiliates</p>
-        </footer>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="cc778fb6-7182-4b87-9b31-3916a1d14a69">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone number">phone number:</label>
+            <input type="text"  name="phone number" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+<center>
+    <button type="submit">Send</button>
+    
+    <h4> You can also contact us at 181-133-xxx</h4>
+</center>
+
+        </form>
     </section>
 </body>
+
 </html>
